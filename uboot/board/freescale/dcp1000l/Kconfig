@@ -1,0 +1,15 @@
+if TARGET_DCP_1000L
+
+config SYS_BOARD
+	default "dcp1000l"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_SOC
+	default "mx6"
+
+config SYS_CONFIG_NAME
+	default "dcp1000l"
+
+endif
